@@ -3,6 +3,8 @@
     --secondary-color: #3f37c9;
     --text-color: #1f2937;
     --light-bg: #f3f4f6;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
 }
 
 * {
@@ -13,8 +15,9 @@
 }
 
 body {
-    line-height: 1.5;
+    line-height: 1.6;
     color: var(--text-color);
+    font-family: var(--font-body);
 }
 
 /* Navigation */
@@ -42,6 +45,8 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: var(--text-color);
+    font-family: var(--font-body);
+    font-weight: 500;
 }
 
 button {
@@ -54,6 +59,8 @@ button {
     background: var(--primary-color);
     color: white;
     border: none;
+    font-family: var(--font-body);
+    font-weight: 600;
 }
 
 /* Hero Section */
@@ -74,11 +81,15 @@ button {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.875rem;
+    font-family: var(--font-body);
+    font-weight: 500;
 }
 
 h1 {
     font-size: 3rem;
     margin: 1.5rem 0;
+    font-family: var(--font-heading);
+    font-weight: 700;
 }
 
 .highlight {
@@ -97,6 +108,8 @@ h1 {
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
+    font-family: var(--font-body);
+    font-weight: 600;
 }
 
 /* Partners Section */
@@ -143,6 +156,8 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #1F2937;
+    font-family: var(--font-heading);
+    font-weight: 600;
 }
 
 .features .subtitle {
@@ -152,6 +167,7 @@ h1 {
     font-weight: 600;
     margin-bottom: 3rem;
     letter-spacing: 0.05em;
+    font-family: var(--font-body);
 }
 
 .features-grid {
@@ -193,6 +209,8 @@ h1 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     color: #1F2937;
+    font-family: var(--font-heading);
+    font-weight: 600;
 }
 
 .feature-content p {
