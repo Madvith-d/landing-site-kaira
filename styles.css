@@ -18,6 +18,11 @@ body {
 }
 
 /* Navigation */
+.logo img {
+
+
+    width: 70px;
+}
 nav {
     display: flex;
     justify-content: space-between;
